@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="startScreen">
+
+        <h1>
+            👋 Welcome to the Water💧 Snake🐍 Game! 🎉
+        </h1>
+        <h2>
+            Instruction :
+            <ul>
+                <li>
+                    Use the arrow keys ⬅️⬆️➡️⬇️ to control the snake 🐍.
+                </li>
+                <li>
+                    Eat the food 🍎 to grow longer 📏.
+                </li>
+                <li>
+                    Avoid hitting the walls 🚧 or yourself 🙅‍♂️.
+                </li>
+                <li>
+                    Try to achieve the highest score 🏆 possible!
+                </li>
+                <li>
+                    Have fun playing! 😄🎮
+                </li>
+            </ul>
+        </h2>
+        <button id="start-button">Start Game</button>
+
+
+
+
+
+
+    </div>
+    <div id="gameScreen">
+        <div id="display"></div>
+        <p id="score">Score: 0</p>
+    </div>
+
+    <div id="gameOverScreen" style="display: none;">
+  <h1>💀 Game Over!</h1>
+  <p id="finalScore">Your Score: 0</p>
+  <button id="restartBtn">Play Again</button>
+</div>
+
+    <script src="script.js"></script>
+    <audio id="bgMusic" src="arcade-music.mp3" loop></audio>
+    <audio id="game-over" src="game-over-arcade-6435.mp3"></audio>
+
+</body>
+
+</html>
